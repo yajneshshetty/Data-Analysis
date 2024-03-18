@@ -1,4 +1,4 @@
-Here's a detailed description of the steps carried out in your project:
+Here's a detailed description of the steps carried out in the project:
 
 1. **Loading and Preprocessing the IMDb Dataset**:
    - Initially, you loaded the IMDb dataset (`IMDB Dataset.csv`) into a Pandas DataFrame (`df`) and displayed the first 10 rows using the `head()` function.
@@ -32,4 +32,31 @@ Here's a detailed description of the steps carried out in your project:
 6. **Displaying Results**:
    - You displayed the contents of `fp_pos.csv` and `fp_neg.csv` to verify the separation of product names based on sentiment.
 
-This sequence of steps demonstrates how you processed the IMDb dataset to train a sentiment classifier and then applied the same classifier to analyze product reviews from Flipkart. Let me know if you need further clarification or assistance with anything else!
+This sequence of steps demonstrates how you processed the IMDb dataset to train a sentiment classifier and then applied the same classifier to analyze product 
+reviews from Flipkart. Let me know if you need further clarification or assistance with anything else!
+
+Below is a description of the libraries used in the project:
+
+1. **Pandas**:
+   - Pandas is a powerful data manipulation and analysis library for Python.
+   - It provides data structures like DataFrames and Series, which are efficient for handling structured data.
+   - Pandas is widely used for tasks such as data cleaning, transformation, and analysis.
+
+2. **NLTK (Natural Language Toolkit)**:
+   - NLTK is a leading platform for building Python programs to work with human language data.
+   - It provides easy-to-use interfaces to over 50 corpora and lexical resources, such as WordNet.
+   - NLTK includes various modules for tasks like tokenization, stemming, tagging, parsing, and classification.
+   - It's widely used in natural language processing (NLP) tasks, including sentiment analysis, named entity recognition, and text classification.
+
+3. **Matplotlib**:
+   - Matplotlib is a comprehensive library for creating static, animated, and interactive visualizations in Python.
+   - It provides a MATLAB-like interface for generating plots, graphs, histograms, and other visualizations.
+   - Matplotlib is highly customizable, allowing users to create publication-quality figures with ease.
+   - It's widely used in data analysis, scientific research, and data visualization projects.
+
+4. **NumPy**:
+   - NumPy is a fundamental package for scientific computing in Python.
+   - It provides support for large, multi-dimensional arrays and matrices, along with a collection of mathematical functions to operate on these arrays.
+   - NumPy arrays are more efficient than Python lists for numerical computations and are extensively used in numerical and scientific computing tasks.
+
+These libraries collectively provide a robust foundation for performing data analysis, natural language processing, and visualization tasks in Python. They are widely adopted by data scientists, researchers, and developers for various applications in data science, machine learning, and beyond.
